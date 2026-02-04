@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Wyspy Kanaryjskie – projekt szkolny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #eef2f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #023e8a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wyspy Kanaryjskie</h1>
+    <p>Projekt szkolny</p>
+</header>
+
+<nav>
+    <a href="#informacje">Informacje ogólne</a>
+    <a href="#wyspy">Najważniejsze wyspy</a>
+    <a href="#klimat">Klimat</a>
+    <a href="#ciekawostki">Ciekawostki</a>
+</nav>
+
+<div class="container">
+
+    <section id="informacje">
+        <h2>Informacje ogólne</h2>
+        <p>
+            Wyspy Kanaryjskie to archipelag należący do Hiszpanii, położony na Oceanie Atlantyckim
+            u północno-zachodnich wybrzeży Afryki. Składają się z siedmiu głównych wysp.
+        </p>
+        <p>
+            Stolicami regionu są <strong>Las Palmas de Gran Canaria</strong> oraz <strong>Santa Cruz de Tenerife</strong>.
+            Wyspy są popularnym kierunkiem turystycznym dzięki pięknym plażom i łagodnemu klimatowi.
+        </p>
+    </section>
+
+    <section id="wyspy">
+        <h2>Najważniejsze wyspy</h2>
+
+        <h3>Teneryfa</h3>
+        <p>
+            Teneryfa jest największą wyspą archipelagu. Znajduje się na niej wulkan Teide,
+            który jest najwyższym szczytem Hiszpanii.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Teide_National_Park.jpg" alt="Teneryfa">
+
+        <h3>Gran Canaria</h3>
+        <p>
+            Gran Canaria słynie z różnorodnych krajobrazów – od piaszczystych wydm Maspalomas
+            po górzyste tereny w centralnej części wyspy.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Dunas_de_Maspalomas.jpg" alt="Gran Canaria">
+
+        <h3>Lanzarote</h3>
+        <p>
+            Lanzarote ma charakterystyczny wulkaniczny krajobraz i wiele terenów chronionych,
+            takich jak Park Narodowy Timanfaya.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Timanfaya_National_Park.jpg" alt="Lanzarote">
+    </section>
+
+    <section id="klimat">
+        <h2>Klimat</h2>
+        <p>
+            Na Wyspach Kanaryjskich panuje klimat subtropikalny. Temperatury są łagodne
+            przez cały rok i rzadko spadają poniżej 20°C.
+        </p>
+        <p>
+            Dzięki temu wyspy często nazywane są „wyspami wiecznej wiosny”.
+        </p>
+    </section>
+
+    <section id="ciekawostki">
+        <h2>Ciekawostki</h2>
+        <ul>
+            <li>Wyspy Kanaryjskie mają pochodzenie wulkaniczne.</li>
+            <li>Teide jest trzecim najwyższym wulkanem na świecie (licząc od dna oceanu).</li>
+            <li>Na wyspach rośnie wiele unikalnych gatunków roślin.</li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>Autor: (Wojtek Kwiecien) | Klasa: (np. 3h)</p>
+</footer>
+
+</body>
+</html>
